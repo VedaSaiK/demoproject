@@ -204,5 +204,4 @@ else:
     result = coverage_results()
     xl_writing(name, result)
     if len(txt_extract()) > len(result):
-        pass
         send_email()
