@@ -162,9 +162,9 @@ def send_email():
 
     msg['To'] = toaddr
 
-    msg['Subject'] = "Subject of the Mail"
+    msg['Subject'] = "Results "
 
-    body = "Body_of_the_mail"
+    body = "Results obtained by running the pipeline"
 
     msg.attach(MIMEText(body, 'plain'))
 
